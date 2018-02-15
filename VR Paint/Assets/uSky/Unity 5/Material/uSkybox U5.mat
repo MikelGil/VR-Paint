@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: uSkybox U5
+  m_Shader: {fileID: 4800000, guid: e00ab2542b534473aa3e1fd9afbee981, type: 3}
+  m_ShaderKeywords: USKY_HDR_OFF
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MoonSampler
+      second:
+        m_Texture: {fileID: 2800000, guid: acb08d8185ab44eeb8e4345c0cace6d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OuterSpaceCube
+      second:
+        m_Texture: {fileID: 8900000, guid: 90caedd366c2e4772a22509b73cfd4c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _OuterSpaceIntensity
+      second: 0.25
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _GroundColor
+      second: {r: 1.57918, g: 3.9045682, b: 9.766728, a: 0}
+    - first:
+        name: _MoonOuterCorona
+      second: {r: 0.13486798, g: 0.16483864, b: 0.18731663, a: 24}
+    - first:
+        name: _NightHorizonColor
+      second: {r: 0.42957947, g: 0.46954033, b: 0.499511, a: 0.999022}
+    - first:
+        name: _NightZenithColor
+      second: {r: 0.0019607842, g: 0.0027843139, b: 0.003882353, a: 0.01}
+    - first:
+        name: _SkyMultiplier
+      second: {r: 0, g: 0.0039120796, b: 0.999022, a: 0}
+    - first:
+        name: _SkyTint
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SunDir
+      second: {r: -0, g: -0.9986296, b: 0.052336216, a: 0}
+    - first:
+        name: _betaM
+      second: {r: 0.0041753473, g: 0.004989941, b: 0.00601866, a: 0}
+    - first:
+        name: _betaR
+      second: {r: 0.005827174, g: 0.013626943, b: 0.033304542, a: 0}
+    - first:
+        name: _colorCorrection
+      second: {r: 1, g: 2, b: 0, a: 0}
